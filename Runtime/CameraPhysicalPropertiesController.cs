@@ -46,7 +46,7 @@ namespace UnityEssentials
             _camera.usePhysicalProperties = true;
             _cinemachineCamera = GetComponent<CinemachineCamera>();
 
-            var prefab = ResourceLoader.InstantiatePrefab("UnityEssentials_Prefab_CameraNoiseVolumes", "Noise Volumes", this.gameObject.transform);
+            var prefab = AssetResolver.InstantiatePrefab("UnityEssentials_Prefab_CameraNoiseVolumes", "Noise Volumes", this.gameObject.transform);
             if (prefab != null)
             {
                 _isoVolume = prefab.transform.Find("Iso Volume")?.GetComponent<Volume>();
