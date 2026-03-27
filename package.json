@@ -1,7 +1,7 @@
 {
-  "name": "com.unityessentials.rendering.camera.physicalpropertiescontroller",
-  "version": "2.0.5",
-  "displayName": "Rendering Camera PhysicalPropertiesController",
+  "name": "com.unityessentials.rendering.camera.physicalproperties",
+  "version": "2.0.6",
+  "displayName": "Rendering Camera PhysicalProperties",
   "description": "This is a part of the UnityEssentials Ecosystem",
   "unity": "6000.0",
   "unityRelease": "",
